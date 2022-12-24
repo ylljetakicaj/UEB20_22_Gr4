@@ -1,4 +1,4 @@
-# Projekti nga lenda Programimi ne WEB 1
-Ne kete projekt do te perdorim HTML5, CSS3 dhe JavaScript.
+# Projekti nga lenda Programimi ne UEB 1
+Krijimi i një ueb sajti në kuadër të projektit (HTML5, CSS, CSS3, Bootstrap,JavaScript dhe JQuery …)
 # Tema
 Krijimi i nje website per barnatore.
