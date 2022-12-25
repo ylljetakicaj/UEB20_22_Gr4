@@ -1,5 +1,9 @@
+# Projekti nga lenda Programimi ne UEB 1
 ## Projekti nga lenda Programimi ne UEB 1
-Baza e të dhënave për menaxhimin e një restauranti duke perdorur MySQL.
+Krijimi i një ueb sajti në kuadër të projektit (HTML5, CSS, CSS3, Bootstrap,JavaScript dhe JQuery)
+# Tema
+## Tema
+Krijimi i një website për barnatore.
 ##  Authors
 
  - [Rinesa Zuzaku](mailto:rinesa.zuzaku@student.uni-pr.edu)
