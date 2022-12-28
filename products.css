@@ -1,5 +1,5 @@
 
- #pershkrimi-produktit{
+#pershkrimi-produktit{
     text-align: center;
     margin: 45px;
     font-family: "Georgia";
@@ -43,3 +43,22 @@
     color:rgb(5, 28, 29);
     font-family: 'Lato',sans-serif;
      }
+
+#cmimi{
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(82, 77, 77);
+      }
+
+#button {
+    background: #8078ce;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 90px;
+    /*border: none; */
+    color : #fff;
+    height: 35px;
+    border-radius: 30px;
+  /* transition: transform 0.3s; */
+      }
