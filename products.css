@@ -1,1 +1,8 @@
-
+    .pfoto {
+             margin: 45px 45px 45px 45px;
+             width: auto;
+             height: 250px;
+             border-radius: 25px;
+             border: 1px solid white;
+             transition: transform 0.25s;
+}
