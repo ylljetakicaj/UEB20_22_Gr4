@@ -1,16 +1,36 @@
-    .pfoto {
-             margin: 45px 45px 45px 45px;
-             width: auto;
-             height: 250px;
-             border-radius: 25px;
-             border: 1px solid white;
-             transition: transform 0.25s;
+html {
+    scroll-behavior: smooth;
+  }
+
+  #pershkrimi-produktit{
+    text-align: center;
+    margin: 45px;
+    font-family: "Georgia";
+    color: #3a0f65;
+    margin-bottom:  45px;
+  }
+  
+  #pershkrimi-prodhusit{
+    text-align: center;
+    margin: 40px;
+    font-family: "Helvetica";
+    font-size: 12px;
+    color: #29282b;
+    margin-bottom:  45px;
+  }
+
+.pfoto {
+    margin: 45px 45px 45px 45px;
+    width: auto;
+    height: 250px;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: transform 0.25s;
 }
   
-    #kujdesi{
-        text-align: center;
-        font-style: italic;
-        color:rgb(5, 28, 29);
-        font-family: 'Lato',sans-serif;
-      
-    }
+#kujdesi{
+    text-align: center;
+    font-style: italic;
+    color:rgb(5, 28, 29);
+    font-family: 'Lato',sans-serif;
+     }
