@@ -70,6 +70,13 @@ header {
 body {
   margin: 0px;
 }
+#star td{
+  text-align: center;
+  color: #babafe;
+  font-family:"wide font";
+  font-size: 25px;;
+}
+
 #kfloke{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -117,7 +124,7 @@ td {
   margin-bottom: 30px;
   }
 table{
-    border-spacing: 2px;
+    border-spacing: 10px;
   }
 
 .pfoto {
