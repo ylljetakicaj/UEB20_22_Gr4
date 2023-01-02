@@ -92,12 +92,13 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
 }
-.pfoto:hover{
+/*.pfoto:hover{
     transform: rotate(20deg);
-}
+}*/
 #button:hover{
     color:black;
 }
+
 #pershkrimi-produktit{
     text-align: center;
     margin: 45px;
@@ -110,7 +111,7 @@ body {
     text-align: center;
     margin: 40px;
     font-family: "Helvetica";
-    font-size: 12px;
+    font-size: 13px;
     color: #29282b;
     margin-bottom:  45px;
   }
@@ -122,9 +123,11 @@ td {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
+  width: fit-content;
+  height:fit-content;
   }
 table{
-    border-spacing: 10px;
+    border-spacing: 1.5px;
   }
 
 .pfoto {
