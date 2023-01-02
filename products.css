@@ -1,43 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 html{
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 header {
-    display: flex;
-    align-items: center;
-    padding: 15px 5%;
-    position: relative;
-    top: 0%;
-    width: auto;
-    background-color:#babafe;
-    z-index: 1;
+  display: flex;
+  align-items: center;
+  padding: 15px 5%;
+  position: relative;
+  top: 0%;
+  width: auto;
+  background-color:#babafe;
+  z-index: 1;
 }
 .logo {
-    padding: 0;
+  padding: 0;
 }
 #logoja {
-    margin: auto;
-    width: auto;
-    height: 45px;
-  }
+  margin: auto;
+  width: auto;
+  height: 45px;
+}
 .nav_linqet {
-    list-style: none;
-    display: flex;
-    margin:auto;
+  list-style: none;
+  display: flex;
+  margin: auto;
 }
 .nav_linqet a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    color: #f7f7f9;
-    text-decoration: none;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f7f7f9;
+  text-decoration: none;
+}
 .nav_linqet li {
-    padding: 15px 20px;
-  }
+  padding: 15px 20px;
+}
 .nav_linqet li a:hover {
-    color: #100020;
-    animation: bottomboder 0.5s;
-    animation-play-state: running;
-  }
+  color: #100020;
+  animation: bottomboder 0.5s;
+  animation-play-state: running;
+}
   .linqet_ne_faqe {
     list-style: none;
     margin: auto;
@@ -60,6 +66,9 @@ header {
 }
 .linqet_ne_faqe li a:hover {
     color: #babafe;
+}
+body {
+  margin: 0px;
 }
 #kfloke{
     text-align: center;
@@ -90,7 +99,7 @@ header {
     margin-bottom:  45px;
   }
   
-  #pershkrimi-prodhusit{
+#pershkrimi-prodhusit{
     text-align: center;
     margin: 40px;
     font-family: "Helvetica";
@@ -98,17 +107,17 @@ header {
     color: #29282b;
     margin-bottom:  45px;
   }
-  td {
+td {
     line-height: 25px;
     color: #3c0a6b;
   }
-  .tabela{
+.tabela{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   }
-  table{
-    border-spacing: 5px;
+table{
+    border-spacing: 2px;
   }
 
 .pfoto {
