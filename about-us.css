@@ -1,3 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 5%;
+    position: relative;
+    top: 0%;
+    width: auto;
+    background-color:#babafe;
+    z-index: 1;
+}
+.logo {
+    padding: 0;
+}
+#logoja {
+    margin: auto;
+    width: auto;
+    height: 45px;
+  }
+.nav_linqet {
+    list-style: none;
+    display: flex;
+    margin:auto;
+}
+.nav_linqet a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #f7f7f9;
+    text-decoration: none;
+  }
+.nav_linqet li {
+    padding: 15px 20px;
+  }
+.nav_linqet li a:hover {
+    color: #100020;
+    animation: bottomboder 0.5s;
+    animation-play-state: running;
+  }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 *{
 	margin:0px;
