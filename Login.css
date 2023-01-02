@@ -1,8 +1,50 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+html{
+    scroll-behavior: smooth;
+  }
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 5%;
+    position: relative;
+    top: 0%;
+    width: auto;
+    background-color:#babafe;
+    z-index: 1;
+    height: 134px;
 }
+.logo {
+    padding: 0;
+}
+#logoja {
+    margin: auto;
+    width: auto;
+    height: 45px;
+  }
+.nav_linqet {
+    list-style: none;
+    display: flex;
+    margin:auto;
+}
+.nav_linqet a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #f7f7f9;
+    text-decoration: none;
+  }
+.nav_linqet li {
+    padding: 15px 20px;
+  }
+.nav_linqet li a:hover {
+    color: #100020;
+    animation: bottomboder 0.5s;
+    animation-play-state: running;
+  }
 
 body{
     background-color: rgb(242, 224, 227);
