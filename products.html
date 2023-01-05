@@ -269,18 +269,5 @@
                     <td><a href="Login.html"><input type="button" value="Add to cart" id="button"></a></td>
                 </tr>    
             </table>
-            <script>
-                stickyElem = document.querySelector(".linqet_ne_faqe");
-                currStickyPos = stickyElem.getBoundingClientRect().top + window.pageYOffset;
-                window.onscroll = function() {
-                     if(window.pageYOffset > currStickyPos) {
-                        stickyElem.style.position = "fixed";
-                        stickyElem.style.top = "0px";
-                    } else {
-                        stickyElem.style.position = "relative";
-                        stickyElem.style.top = "initial";
-                    }
-                }
-            </script>
     </body>
 </html>
