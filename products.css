@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   transition: all .2s linear;
-  text-transform: capitalize;
 }
 html{
   scroll-behavior: smooth;
@@ -15,7 +14,7 @@ header {
   padding: 15px 5%;
   position: relative;
   top: 0%;
-  width: auto;
+  width: 100%;
   background-color:#babafe;
   z-index: 1;
 }
@@ -29,7 +28,7 @@ header {
 }
 .nav_linqet {
   list-style: none;
-  display: flex;
+  display: inline-flex;
   margin: auto;
 }
 .nav_linqet a {
@@ -46,28 +45,18 @@ header {
   animation: bottomboder 0.5s;
   animation-play-state: running;
 }
-  .linqet_ne_faqe {
-    list-style: none;
-    margin: auto;
-    width:auto;
-    text-align: center;
-    background-color: rgb(242, 224, 227);
-    padding: 10px 0px;
-    position: relative;
+.sub-menu-1{
+  display: none;
 }
-.linqet_ne_faqe a {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    color:#100020;
-    text-decoration: none;
+.sub-menu-1 ul{
+  list-style: none;
 }
-.linqet_ne_faqe li {
-    padding: 15px 20px;
-    display: inline-block;
-
-}
-.linqet_ne_faqe li a:hover {
-    color: #babafe;
+.nav_linqet li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background:#8078ce;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 body {
   margin: 0px;
@@ -76,50 +65,58 @@ body {
   text-align: center;
   color: #babafe;
   font-family:"wide font";
-  font-size: 25px;;
+  font-size: 25px;
 }
-
+#star td:hover{
+  color:#3c0a6b;
+}
+span{
+  font-size: 20px;
+}
 #kfloke{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 #klekure{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
 #kfytyre{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
 }
-/*.pfoto:hover{
-    transform: rotate(20deg);
-}*/
 #button:hover{
-    color:black;
+  color:black;
 }
 
 #pershkrimi-produktit{
-    text-align: center;
-    margin: 45px;
-    font-family: "Georgia";
-    color: #3a0f65;
-    margin-bottom:  45px;
+  text-align: center;
+  margin: 45px;
+  font-family: "Georgia";
+  color: #3a0f65;
+  margin-bottom:  45px;
   }
-  
+#emri {
+  text-align: center;
+  margin: 45px;
+  font-family: "Georgia";
+  color: #3a0f65;
+  margin-bottom:  45px;
+}
 #pershkrimi-prodhusit{
-    text-align: center;
-    margin: 40px;
-    font-family: "Helvetica";
-    font-size: 13px;
-    color: #29282b;
-    margin-bottom:  45px;
+  text-align: center;
+  margin: 40px;
+  font-family: "Helvetica";
+  font-size: 13px;
+  color: #29282b;
+  margin-bottom:  45px;
   }
 td {
-    line-height: 25px;
-    color: #3c0a6b;
+  line-height: 25px;
+  color: #3c0a6b;
   }
 .pfoto{
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -129,6 +126,7 @@ td {
 .pfoto:hover{
   outline: .2rem solid #222;
   outline-offset: 0;
+  transform:scale(0.95);
 }
 .tabela{
   margin-left: auto;
@@ -138,40 +136,42 @@ td {
   height:fit-content;
   }
 table{
-    border-spacing: 1.5px;
+  border-spacing: 1.5px;
+  }
+.pfoto {
+  margin: 55px 55px 55px 55px;
+  width: auto;
+  height: 200px;
+  border-radius: 25px;
+  border: 1px solid white;
+  transition: transform 0.25s;
+}  
+#kujdesi{
+  text-align: center;
+  font-style: italic;
+  color:rgb(5, 28, 29);
+  font-family: 'Lato',sans-serif;
+  }
+#cmimi{
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(82, 77, 77);
+  }
+#button {
+  background: #8078ce;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 90px;
+  color : #fff;
+  height: 35px;
+  border-radius: 30px;
   }
 
-.pfoto {
-    margin: 40px 40px 40px 40px;
-    width: auto;
-    height: 200px;
-    border-radius: 25px;
-    border: 1px solid white;
-    transition: transform 0.25s;
-}
+  @media screen and (max-width: 600px){
+     .pfoto{
+      margin: 40px 40px 40px 40px;
+     }  
+     
+  }
   
-#kujdesi{
-    text-align: center;
-    font-style: italic;
-    color:rgb(5, 28, 29);
-    font-family: 'Lato',sans-serif;
-     }
-
-#cmimi{
-    padding: 5px;
-    font-size: 15px;
-    color: rgb(82, 77, 77);
-      }
-
-#button {
-    background: #8078ce;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    width: 90px;
-    /*border: none; */
-    color : #fff;
-    height: 35px;
-    border-radius: 30px;
-  /* transition: transform 0.3s; */
-      }
