@@ -6,7 +6,8 @@ Krijimi i një ueb sajti në kuadër të projektit (HTML5, CSS, CSS3, Bootstrap,
 Krijimi i një website për barnatore.
 ##  Authors
 
- - [Rinesa Zuzaku](mailto:rinesa.zuzaku@student.uni-pr.edu)
- - [Tringa Baftiu](mailto:tringa.baftiu@student.uni-pr.edu)
- - [Suhejla Hoxha](mailto:suhejla.hoxha@student.uni-pr.edu)
- - [Ylljete Kicaj](mailto:ylljete.kicaj@student.uni-pr.edu)
+- [Rinesa Zuzaku](https://github.com/RinesaZuzaku)
+- [Tringa Baftiu](https://github.com/Triinga)
+- [Suhejla Hoxha](https://github.com/SuhejlaHoxha)
+- [Ylljete Kicaj](https://github.com/ylljetakicaj)
+
