@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Products | Pearl Skin</title>
-        <link rel="shortcut icon" type="image/x-icon" href="logo3.png"/>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Products | Pearl Skin</title>
+       <link rel="shortcut icon" type="image/x-icon" href="logo3.png"/>
        <link rel="stylesheet" href="products.css">
        <script src="products.js"></script>
+       <link rel="stylesheet" href="darkmode.css">
+       <script src="darkmode.js" defer></script>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
     </head> 
     <body>
-        <header>
-            <a class="logo" href="#"><img src="fotot/logo2.png" id="logo" alt="Logo" style="width:100px"></a>
+        <header style= "background-color: 'LightBlue">
+             
+            <a class="logo" href="home.html"><img src="fotot/logo2.png" id="logo" alt="Logo" style="width:100px"></a>
             <nav>
                 <ul class="nav_linqet">
                     <li><a href="home.html">Home</a></li>
-                    <li><a href="products.html">Products</a>
+                    <li><a href="products.html" class="active">Products</a>
                         <div class="sub-menu-1">
                             <ul>
                                 <li><a href="#kfloke">Kujdesi per floke</li>
@@ -26,6 +30,7 @@
                     <li><a href="about-us.html">About us</a></li>
                     <li><a href="Login.html">Log in</a></li>
                     <li><a href="tips.html">Skin Care Tips</a></li>
+                    <li><i class="bi bi-brightness-high-fill" id="toggleDark"></i></li>
                 </ul>
             </nav>
         </header>
