@@ -1,39 +1,56 @@
 header {
-    display: flex;
-    align-items: center;
-    padding: 15px 5%;
-    position: relative;
-    top: 0%;
-    width: auto;
-    background-color:#babafe;
-    z-index: 1;
+  display: flex;
+  height: 75px;
+  align-items: center;
+  padding: 15px 5%;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: 'LightBlue'; 
+  z-index: 1;
 }
 .logo {
-    padding: 0;
+  padding: 0;
 }
 #logoja {
-    margin: auto;
-    width: auto;
-    height: 45px;
-  }
-  .nav_linqet {
-    list-style: none;
-    display: flex;
-    margin:auto;
+  margin: auto;
+  width: auto;
+  height: 45px;
+}
+.nav_linqet {
+  list-style: none;
+  display: inline-flex;
+  margin: auto;
 }
 .nav_linqet a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 20px;
-    color: #f7f7f9;
-    text-decoration: none;
-  }
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f7f7f9;
+  text-decoration: none;
+}
 .nav_linqet li {
-    padding: 15px 20px;
-  }
+  padding: 15px 20px;
+}
 .nav_linqet li a:hover {
-    color: #100020;
-    animation: bottomboder 0.5s;
-    animation-play-state: running;
-  }
-
+  color: #100020;
+  animation: bottomboder 0.5s;
+  animation-play-state: running;
+}
+.sub-menu-1{
+  display: none;
+}
+.sub-menu-1 ul{
+  list-style: none;
+}
+.nav_linqet li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: 'LightBlue';
+  margin-top: 15px;
+  margin-left: 15px;
+}
+nav ul li a:active{
+  background-color: #675cff;
+  color: #fff;
+}
  
