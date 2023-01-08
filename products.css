@@ -1,22 +1,15 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  transition: all .2s linear;
-}
 html{
   scroll-behavior: smooth;
 }
 header {
   display: flex;
-  height: 75px;
+height: 70px;
   align-items: center;
   padding: 15px 5%;
-  position: fixed;
+  position: relative;
   top: 0%;
-  width: 100%;
-  background-color: 'LightBlue'; 
+  width: auto;
+  background-color:#babafe;
   z-index: 1;
 }
 .logo {
@@ -29,8 +22,8 @@ header {
 }
 .nav_linqet {
   list-style: none;
-  display: inline-flex;
-  margin: auto;
+  display: flex;
+  margin:auto;
 }
 .nav_linqet a {
   font-family: "Montserrat", sans-serif;
@@ -55,25 +48,21 @@ header {
 .nav_linqet li:hover .sub-menu-1{
   display: block;
   position: absolute;
-  background: 'LightBlue';
+  background:#8078ce;
   margin-top: 15px;
   margin-left: 15px;
-}
-nav ul li a:active{
-  background-color: #675cff;
-  color: #fff;
-}
+} 
 body {
   margin: 0px;
 }
 #star td{
   text-align: center;
-  color: #ADD8E6 ;
+  color: #babafe;
   font-family:"wide font";
-  font-size: 24px;
+  font-size: 25px;
 }
 #star td:hover{
-  color:pink;
+  color:#3c0a6b;
 }
 span{
   font-size: 20px;
@@ -94,21 +83,19 @@ span{
   font-size: 20px;
 }
 #button:hover{
-  color:rgb(16, 15, 15);
+  color:black;
 }
 
 #pershkrimi-produktit{
   text-align: center;
   margin: 45px;
   font-family: "Georgia";
-  color: 'LightBlue';
   margin-bottom:  45px;
   }
-#emri {
+#emri-produktit {
   text-align: center;
   margin: 45px;
   font-family: "Georgia";
-  color: 'Blue';
   margin-bottom:  45px;
 }
 #pershkrimi-prodhusit{
@@ -116,22 +103,23 @@ span{
   margin: 40px;
   font-family: "Helvetica";
   font-size: 13px;
-  color: 'Blue';
   margin-bottom:  45px;
   }
 td {
   line-height: 25px;
-  color: 'Blue';
+  color:#7b39ba;
   }
 .pfoto{
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
   outline: .1rem solid #ccc;
-  outline-offset: -0.5rem;
+  outline-offset: -0.5rem
+  color: pink;
 }
 .pfoto:hover{
   outline: .2rem solid #222;
   outline-offset: 0;
   transform:scale(0.95);
+  transform: rotate();
 }
 .tabela{
   margin-left: auto;
@@ -149,7 +137,8 @@ table{
   height: 200px;
   border-radius: 25px;
   border: 1px solid white;
-  transition: transform 0.25s;
+  transition: transform 0.25s
+
 }  
 #kujdesi{
   text-align: center;
@@ -160,10 +149,10 @@ table{
 #cmimi{
   padding: 5px;
   font-size: 15px;
-  color: rgb(82, 77, 77);
+  color: rgb(162, 118, 118);
   }
 #button {
-  background: rgb(214, 175, 182) ;
+  background: #babafe;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -171,7 +160,6 @@ table{
   color : #fff;
   height: 35px;
   border-radius: 30px;
-  border-color:#ADD8E6;
   }
 
   @media screen and (max-width: 600px){
@@ -180,5 +168,3 @@ table{
      }  
      
   }
-  
-  
