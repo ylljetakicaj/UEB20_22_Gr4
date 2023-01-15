@@ -4,7 +4,7 @@
   
    <meta name="viewport" content="with=device-width, initial-scale=1.0">
         <title> Pearl skin </title>
-        <link rel="stylesheet" href="hm_style.css">
+        <link rel="stylesheet" href="home_style.css">
     
       
     
@@ -22,6 +22,32 @@
         </header>
   </head>
         <body>
+          
+                 <div class="gallery">
+        <img class="slideshow" src="fotot/slides4.jpg" alt="imazhi1"> 
+        </div>
+
+      <!-- jquery code -->
+        <script>
+          let slideshow_array = [
+              './fotot/slides4.jpg',
+              './fotot/slides7.jpg',
+             // './fotot/slides6.jpg'
+          ]; 
+          
+          let pic = $(".slideshow");
+          let i = 0;
+          setInterval(function() {
+              i = (i + 1) % slideshow_array.length //return 0,1,2,3
+          $(document).ready(function(){
+              pic.fadeOut(1000, () => {
+                  pic.attr('src', slideshow_array[i]);
+              pic.fadeIn(1000);     
+              });
+          });
+          }, 1500)
+        </script>
+          
           <!-- footer section -->
           <section id="footer">
               <div class="div">
