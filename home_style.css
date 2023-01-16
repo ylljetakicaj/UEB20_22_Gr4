@@ -1,0 +1,303 @@
+.all{
+  background-color:aliceblue;
+  
+}
+.all1{
+  width:100%;
+  position:absolute;
+  height:100vh;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 5%;
+    position: relative;
+    top: 0%;
+    width: auto;
+    background-color:#babafe;
+    z-index: 1;
+}
+
+.logo {
+    padding: 0;
+}
+#logoja {
+    margin: auto;
+    width: auto;
+    height: 45px;
+  }
+  .nav_linqet {
+    list-style: none;
+    display: flex;
+    margin:auto;
+}
+.nav_linqet a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #f7f7f9;
+    text-decoration: none;
+  }
+.nav_linqet li {
+    padding: 15px 20px;
+  }
+.nav_linqet li a:hover {
+    color: #100020;
+    animation: bottomboder 0.5s;
+    animation-play-state: running;
+  }
+
+  
+[data-tab-content] {
+ 
+  display: none;
+}
+
+
+  
+.active[data-tab-content] {
+  display: block;
+}
+  
+.tab-content {
+  font-size: 15px;
+text-align:center;
+
+} 
+
+.tabs {
+  font-size: 20px;
+  display: flex;
+  margin: 0;
+  text-align: center;
+   
+}
+  
+
+.tabs span {
+
+  padding: 10px;
+  align-items: center;
+  
+
+}
+  
+
+.tabs span:hover {
+  align-items: center;
+  cursor: pointer;
+  color: palevioletred;
+}
+
+
+
+h1{
+  font-size: 36px;
+  font-weight: 600;
+  
+}
+
+
+#emri-produktit {
+  text-align: center;
+  margin: 45px;
+  font-family: "Georgia";
+  margin-bottom:  45px;
+}
+.tabela{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: fit-content;
+  height:fit-content;
+  }
+table{
+  border-spacing: 1.5px;
+  }
+
+  .pfoto{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    outline: .1rem solid #ccc;
+    outline-offset: -0.5rem;
+    color: pink;
+  }
+
+  #emri-produktit {
+    text-align: center;
+    margin: 45px;
+    font-family: "Georgia";
+    margin-bottom:  45px;
+  }
+
+  
+#pershkrimi-produktit{
+  text-align: center;
+  margin: 45px;
+  font-family: "Georgia";
+  margin-bottom:  45px;
+  }
+
+  #pershkrimi-prodhusit{
+    text-align: center;
+    margin: 40px;
+    font-family: "Helvetica";
+    font-size: 13px;
+    margin-bottom:  45px;
+    }
+
+    .pfoto:hover{
+      outline: .2rem solid #222;
+      outline-offset: 0;
+      transform:scale(0.95);
+      transform: rotate();
+    }
+
+    .pfoto {
+      margin: 55px 55px 55px 55px;
+      width: auto;
+      height: 200px;
+      border-radius: 25px;
+      border: 1px solid white;
+      transition: transform 0.25s
+    
+    }  
+@media screen and (max-width: 600px){
+  pfoto{
+  margin: 40px 40px 40px 40px;
+    } 
+    }
+
+
+
+.new2{
+  width:100%;
+  text-align: center;
+}
+  
+.div1{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.keshillat2{
+  width:80%;
+  height:80%;
+  flex-basis: 50%;
+  background: #ffe7fa;
+  border-radius:10px;
+  margin-bottom:5%;
+  padding: 20px 12px;
+  box-sizing: border-box; 
+} 
+
+
+.new_section{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+
+
+/* footer section */
+
+#footer {
+background-image: linear-gradient(to right,rgba(255, 99, 71, 0.5),rgba(255, 99, 71, 0.5) );
+color: rgb(242,224,227);
+}
+
+.div_box
+{
+padding: 20px;
+  margin: 20px;
+  line-height: 1.8; 
+}
+
+#div_img{
+  width: 90px;
+  height: 100px;
+}
+
+
+
+/* per ikona */
+.div_box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 50px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, #ffb6c1,#ffb6c1 );
+}
+
+.div_box .email 
+{
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+  
+
+}
+
+.div_box .button {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 30px;
+  background-image: linear-gradient(to right,rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.2) );
+}
+
+hr
+{
+  background-color:#fff;
+   
+}
+
+.copyright
+{
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom:20px;
+  text-align: center;
+  background-color: lightcoral;
+
+}
+
+#fieldset_id{
+  border: 3px solid palevioletred;
+  width: 260px;
+  height: 157px;
+}
+
+.email{
+  width: 257px;
+  padding: 8px 13px;
+  margin: 4px 0;
+
+}
+
+.button{
+  background-color:beige;
+  border: none;
+  color: white;
+  padding: 8px 11px;
+  text-decoration: none;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+
+
+  
+   
