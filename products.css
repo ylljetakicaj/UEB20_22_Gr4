@@ -1,6 +1,6 @@
 *{
 	margin:0px;
-	padding:0px;
+	
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
@@ -16,6 +16,7 @@ header {
   width: 100%;
   top: 0;
   background-color:#babafe;
+
 }
 .logo {
   padding: 0;
