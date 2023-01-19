@@ -47,9 +47,6 @@ header {
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
-body{
-	background-color: rgb(242, 224, 227)
-}
 .moreText{
 	display: none;
 }
@@ -65,7 +62,6 @@ body{
 .section{
 	width: 100%;
 	min-height: 100vh;
-	background-color: rgb(242, 224, 227);
 }
 .container{
 	width: 80%;
@@ -103,6 +99,7 @@ body{
 }
 .content-section .content .read-more-btn{
 	margin-top: 30px;
+	cursor: pointer;
 }
 /*.content-section .content .read-more-btn a{
 	background-color: #3d3d3d;
@@ -126,7 +123,6 @@ body{
 	letter-spacing: 1.5px;
 }
 .content-section .social{
-	background-color:  rgb(242, 224, 227)	;
 	margin: 40px 40px;
 }
 .content-section .social i{
