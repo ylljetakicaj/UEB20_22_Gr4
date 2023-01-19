@@ -1,6 +1,5 @@
 *{
 	margin:0px;
-	
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
@@ -30,6 +29,7 @@ header {
   list-style: none;
   display: flex;
   margin:auto;
+
 }
 .nav_linqet a {
   font-family: "Montserrat", sans-serif;
