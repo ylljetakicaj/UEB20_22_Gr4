@@ -1,9 +1,9 @@
 header {
   display: flex;
-  height: 75px;
+  height: 135px;
   align-items: center;
   padding: 15px 5%;
-  position: fixed;
+  position: relative;
   top: 0%;
   width: 100%;
   background-color: 'LightBlue'; 

@@ -8,15 +8,21 @@ html{
 }
 header {
   display: flex;
-  height: 75px;
+  height: 135px;
   align-items: center;
   padding: 15px 5%;
   position: relative;
   width: 100%;
   top: 0;
   background-color:#babafe;
-
 }
+#panel {
+  padding: 50px;
+  display: none;
+}  
+#panel1{
+  height:150px;
+} 
 .logo {
   padding: 0;
 }
