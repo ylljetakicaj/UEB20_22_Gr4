@@ -8,6 +8,11 @@
 	<link rel="stylesheet" href="about-us.css">
 	<link rel="stylesheet" href="header.css">
 	<link rel="shortcut icon" type="image/x-icon" href="logo3.png"/>
+	<script>
+		function playAudio() {
+			document.getElementById("audio1").play();
+		}
+	</script>
 	
 </head>	
 <body>
@@ -65,6 +70,8 @@
 					<a href=""><i class="fab fa-facebook-f"></i></a>
 					<a href=""><i class="fab fa-twitter"></i></a>
 					<a href=""><i class="fab fa-instagram"></i></a>
+					<audio id="audio1"src="mp3/1.mp3" controls style="display: none;"></audio>
+					<i class="fab fa-spotify" onclick="playAudio();"></i>
 				</div>
 			</div>
 			<div class="image-section">
@@ -77,7 +84,7 @@
 			style = "background-color: antiquewhite; border: 1px; border-color: beige;"
 			onclick="document.getElementById('demo').innerHTML = Date()">
 			Click me to display Date and Time.</button>
-			<p id="demo" style="font-size: 10px""></p>
+			<p id="demo" style="font-size: 10px"></p>
 </body>
 </html>
 
