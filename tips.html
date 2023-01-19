@@ -6,10 +6,71 @@
     <title>Tips | Pearl Skin</title>
     <link rel="shortcut icon" type="image/x-icon" href="logo3.png"/>
     <link rel="stylesheet" href="tips.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   
+    <script>
+        $(document).ready(function(){
+          $("#hide1").click(function(){
+            $(".p1").hide(1000);
+          });
+          $("#show1").click(function(){
+            $(".p1").show(1000);
+          });
+        });
+        $(document).ready(function(){
+          $("#hide3").click(function(){
+            $(".p3").hide(1000);
+          });
+          $("#show3").click(function(){
+            $(".p3").show(1000);
+          });
+        });
+        $(document).ready(function(){
+         $("#fade").click(function(){
+          $(".1").fadeToggle("slow");
+          $(".2").fadeToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $("#logo").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+$(document).ready(function(){
+  $(".fsheh1").click(function(){
+    $(".card").animate({height:'toggle'});
+  });
+});
+$(document).ready(function(){
+  $("#hide1").click(function(){
+    alert("Text: " + $(".p1").text());
+  });
+  $("#show1").click(function(){
+    alert("HTML: " + $(".p1").html());
+  });
+});
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    $(".1").text("The best thing you can do for your skin, is to not smoke <3");
+  });
+});
+$(document).ready(function(){
+    $("#show3").click(function(){
+        $("ol.ol3").append("<li>Strong soaps and detergents can strip oil from your skin.</li>");
+        $("ol.ol3").append("<li>Choose mild cleansers.</li>");
+    })
+});
+$(document).ready(function(){
+  $(".fsheh2").click(function(){
+    $("h3").remove(".title");
+  });
+});
+    </script>
 </head>
 <body>
     <header style="background-color: #babafe">
 		<a class="logo" href="#"><img src="fotot/logo2.png" id="logo" alt="Logo" style="width:100px"></a>
+        <div id="panel"><img src="fotot/slide1.png" id="panel1"></div>
 		<nav>
 			<ul class="nav_linqet">
 				<li><a href="home.html">Home</a></li>
@@ -25,72 +86,70 @@
     <div class="container">
         <div class="card">
             <div class="icon">
-                <img src="fotot/logo2.png">
+                <img src="fotot/logo2.png" id="foto">
             </div>
             <div class="content">
-                <h3>1.Protect yourself from the sun</h3>
-                <p>One of the most important ways to take care of your skin is to protect it from the sun. 
+                <h3 class="title">1.Protect yourself from the sun</h3>
+                <p class="p1">One of the most important ways to take care of your skin is to protect it from the sun. 
                     A lifetime of sun exposure can cause wrinkles, age spots and other skin problems — as well as increase the risk of skin cancer.
                 <br>
                 For the most complete sun protection:
-                  <ul> </ul>
-                    <li>Use sunscreen.</li>
-                    <li>Seek shade.</li>
-                    <li>Wear protective clothing.</li>
-                    
+                  <ol class="p1"> 
+                    <li class="p1" style="color:white">Use sunscreen.</li>
+                    <li class="p1" style="color:white">Seek shade.</li>
+                    <li class="p1" style="color:white">Wear protective clothing.</li>
+                  </ol>
                 </p>
             </div>
-            <a class="more"></a>
+            <button id="hide1">Fsheh</button>
+            <button id="show1">Shfaq</button>
+            
         </div>
         <div class="card">
             <div class="icon">
-                <img src="fotot/logo2.png">
+                <img src="fotot/logo2.png" id="foto">
             </div>
             <div class="content">
-                <h3>2. Don't smoke</h3>
+                <h3 class="title">2. Don't smoke</h3>
                 <br>
-                <p>Smoking makes your skin look older and contributes to wrinkles.
+                <p class="1">Smoking makes your skin look older and contributes to wrinkles.
                     <br>Smoking narrows the tiny blood vessels in the outermost layers of skin, which decreases blood flow and makes skin paler. 
                     <br>This also depletes the skin of oxygen and nutrients that are important to skin health.
                     <br>
-                    In addition, smoking increases your risk of squamous cell skin cancer. 
-                   </p>
+                    <i class="2" style="color:khaki">In addition, smoking increases your risk of squamous cell skin cancer.</i> 
+                </p>
             </div>
-            <a class="more"></a>
+            <button id="fade">Shfaq/Fsheh Tekstin</button>
+            <button id="btn1">Shfaq edhe nje keshille</button>
         </div>
-        <div class="card">
+        <div class="card" id="card3">
             <div class="icon">
-                <img src="fotot/logo2.png">
+                <img src="fotot/logo2.png" id="foto">
             </div>
             <div class="content">
-                <h3>3. Treat your skin gently</h3>
+                <h3 class="title">3. Treat your skin gently</h3>
                 <br>
-                <p>
+                <p class="p3">
                     Daily cleansing and shaving can take a toll on your skin. 
                     <br>To keep it gentle:
                     <br>
-                   Limit bath time.
-                   Water and long showers or baths remove oils from your skin.
-                   Limit your bath or shower time, and use warm — rather than hot — water.
-                   Avoid strong soaps.
-                   Strong soaps and detergents can strip oil from your skin. 
-                Choose mild cleansers.
-
+                    <ol style="color:white" class="ol3">
+                   <li class="p3">Limit bath time.</li>
+                   <li class="p3">Water and long showers or baths remove oils from your skin.</li>
+                   <li class="p3">Limit your bath or shower time, and use warm — rather than hot — water.</li>
+                   <li class="p3">Avoid strong soaps.</li>
+            </ol>
                 </p>
      
             </div>
-            <a class="more"></a>
+            <button id="hide3">Fsheh</button>
+            <button id="show3">Shfaq</button>
         </div>
         
     </div>
-    <script>
-        let more = document.querySelectorAll('.more');
-        for(let i=0; i<more.length; i++){
-            more[i].addEventListener('click', function(){
-                more[i].parentNode.classList.toggle('active')
-            })
-        }
-
-     </script>
+    <button id="fsheh1" class="fsheh1">Klikoni ketu per t'i fshehur/shfaqur keshillat</button>
+    <br>
+    <button id="fsheh2" class="fsheh2">Largoni titujt e keshillave</button>
+    
 </body>
 </html>
