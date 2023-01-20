@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+	background-repeat: no-repeat;
 }
 header {
     display: flex;
@@ -50,7 +51,8 @@ header {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 *{
 	margin:0px;
-
+	background-origin: border-box;
+    background-repeat: no-repeat;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
