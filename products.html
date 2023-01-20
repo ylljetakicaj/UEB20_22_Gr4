@@ -11,6 +11,8 @@
        <script src="darkmode.js" defer></script>
        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="footer.css">
+       <script src="https://kit.fontawesome.com/831b733ec6.js" crossorigin="anonymous"></script>
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head> 
     <body>
@@ -31,7 +33,7 @@
                     </li>
                     <li><a href="about-us.html">About us</a></li>
                     <li><a href="Login.html" target="_blank">Log in</a></li>
-                    <li><a href="tips.html">Skin Care Tips</a></li>
+                    <li><a href="SkinCareTips.html">Skin Care Tips</a></li>
                     <li><i class="bi bi-brightness-high-fill" id="toggleDark"></i></li>
                 </ul>
             </nav>
@@ -40,7 +42,7 @@
         <table>
             <table border="0px" class="tabela" >
                 <tr id="fotot">
-                    <tr id="tfloke"><p id="kfloke">Kujdesi per <b>floke</b> <a id="topfloke"href="#top" style="text-decoration:none ">&#8593;</a></p>
+                    <tr id="tfloke"><p id="kfloke">Kujdesi per <b><mark>floke</mark></b> <a id="topfloke"href="#top" style="text-decoration:none ">&#8593;</a></p>
                         
                         <div class="audio2">
                             <p>Klikoni per te degjuar</p>
@@ -130,7 +132,7 @@
 
                 <table border="0px" class="tabela" style="width:1051.09px">
                 <tr>
-                    <tr><p id="kfytyre">Kujdesi per <b>fytyre</b>  <a id="topfytyre"href="#top" style="text-decoration:none ">&#8593;</a></p></tr>
+                    <tr><p id="kfytyre">Kujdesi per <b><mark>fytyre</mark></b>  <a id="topfytyre"href="#top" style="text-decoration:none ">&#8593;</a></p></tr>
                     <td><img src="fotot/kfytyre1_preview_rev_1.jpeg" alt="foto e produktit" class="pfoto"></td>
                     <td><img src="fotot/kfytyre2_preview_rev_1.jpeg" alt="foto e produktit" class="pfoto"></td>
                     <td><img src="fotot/kfytyre3_preview_rev_1.jpeg" alt="foto e produktit" class="pfoto"></td>
@@ -208,7 +210,7 @@
 
                 <table border="0px" class="tabela" style="width:1051.09px">
                 <tr>
-                    <tr><p id="klekure">Kujdesi per <b>lekure</b>  <a id="toplekure"href="#top" style="text-decoration:none ">&#8593;</a></p></tr>
+                    <tr><p id="klekure">Kujdesi per <b><mark>lekure</mark></b>  <a id="toplekure"href="#top" style="text-decoration:none ">&#8593;</a></p></tr>
                     <td><img src="fotot/klekure1_preview_rev_1.jpeg" alt="foto e produktit" class="pfoto"></td>
                     <td><img src="fotot/klekure2_preview_rev_1.jpeg" alt="foto e produktit" class="pfoto"></td>
                     <td><img src="fotot/klekure3_preview_rev_1.jpeg" alt="foto e produktit" class="pfoto"></td>
@@ -284,6 +286,69 @@
                     <td><a href="Login.html"><input type="button" value="Add to cart" id="button"></a></td>
                 </tr>    
             </table>
+              <!-- footer section -->
+  <section id="footer">
+    <div class="div">
+      <div class=" div1_footer ">
+        <div class="div2 div_box">
+          <img id= "div_img" src="fotot/logo2.png">
+          <p>Your skincare place </p>
+        </div>
+
+          
+            <address class="div2 div_box">
+            <p><b>CONTACT US</b></p>
+            <p> <i class="fa-sharp fa-solid fa-location-dot"></i> Qendra e Student&euml;ve, Prishtin&euml; </p>
+            <p> <i class="fa-solid fa-phone"></i> +38249123456</p>
+           
+              <i class="fa-solid fa-envelope"></i>
+               <a href="mailto:pearlSkin@gmail.com">pearlSkin@gmail.com</a>
+              </address>
+         
+  
+          <div class="div2 div_box">
+            <p><b>About US</b></p>
+            <p>P&euml;r tu lidhur direkt me ne</p>
+            <input list="emailat" name="email" id="email" class="email1">
+            <datalist id="emailat">
+              <option value="tringa.baftiu@gmail.com">
+              <option value="rinesa.zuzaku@gmail.com">
+              <option value="suhejla.hoxha@gmail.com">
+              <option value="ylljete.kicaj@gmail.com">
+              
+            </datalist>
+           
+          </div>
+
+          <div class="div2 div_box">
+             <form id = "form_id"> 
+             <fieldset id="fieldset_id">
+             <legend>Subscribe Newsletter</legend>
+     
+               <input type="email" class="email" placeholder="your email"> 
+             
+              <button type="button" class="button">Subscribe</button>
+              </fieldset>
+             </form>
+          </div>
+     </div>
+    <div> 
+
+    
+      
+   
+    </div>
+    
+    <p class="copyright">&copy; PearlSkin</p>
+
+
+    </section>
+  </div>
+</section>
+
+
+
+
             <script>
                 var audio = document.getElementById("audio2");
                 var icon = document.getElementById("icon");

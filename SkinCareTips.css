@@ -1,5 +1,62 @@
 html{
   scroll-behavior: smooth;
+background-repeat: no-repeat;
+}
+header {
+display: flex;
+height: 100px;
+align-items: center;
+padding: 15px 5%;
+position: relative;
+width: 100%;
+top: 0px;
+bottom:0px;
+left:0px;
+right:0px;
+background-color:#afb8a9;
+
+}
+#panel {
+  padding: 50px;
+  display: none;
+}  
+#panel1{
+  height:150px;
+} 
+.logo {
+  padding: 0;
+}
+#logoja {
+  margin: auto;
+  width: auto;
+  height: 45px;
+}
+.nav_linqet {
+  list-style: none;
+  display: flex;
+  margin:auto;
+}
+.nav_linqet a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #f7f7f9;
+  text-decoration: none;
+}
+.nav_linqet li {
+  padding: 15px 20px;
+}
+.nav_linqet li a:hover {
+  color: #100020;
+  animation: bottomboder 0.5s;
+  animation-play-state: running;
+}
+
+
+/* ketu perfundon headeri */
+
+
+html{
+  scroll-behavior: smooth;
   transition: .6s;
 }
 
@@ -24,7 +81,7 @@ html{
 }
 
 body{
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: rgb(242, 224, 225);
 }
 
@@ -105,7 +162,7 @@ hr{
     width: fit-content;
     height:fit-content;
     }
-  table{
+  .table{
     border-spacing: 1.5px;
     }
   .pfoto {

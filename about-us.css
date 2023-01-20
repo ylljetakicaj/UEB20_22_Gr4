@@ -3,16 +3,15 @@ html{
 	background-repeat: no-repeat;
 }
 header {
-    display: flex;
-	height:135px;
-    align-items: center;
-    padding: 15px 5%;
-    position: relative;
-    top: 0%;
-    width: auto;
-    background-color:#babafe;
-    z-index: 1;
-}
+	display: flex;
+	height: 125px;
+	align-items: center;
+	padding: 15px 5%;
+	position: relative;
+	width: 100%;
+	top: 0;
+	background-color:#afb8a9;
+  }
 #panel {
     padding: 50px;
     display: none;

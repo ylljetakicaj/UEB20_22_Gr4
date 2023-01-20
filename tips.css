@@ -1,12 +1,12 @@
 header {
     display: flex;
-    height: 135px;
+    height: 125px;
     align-items: center;
     padding: 15px 5%;
     position: fixed;
     top: 0%;
     width: 100%;
-    background-color: 'LightBlue'; 
+    background-color:#afb8a9; 
     z-index: 1;
   }
   .logo {
@@ -81,15 +81,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 110vh;
-    background-color: rgb(242, 224, 227); 
+    /* min-height: 110vh; */
+    /* background-color: rgb(242, 224, 227);  */
 }
 .p1{
   text-decoration:double;
 }
 .container{
-    min-height: 5px;
-    max-height: 10px;
+    height: 500px;
     position: relative;
     display: flex;
     justify-content: center;
