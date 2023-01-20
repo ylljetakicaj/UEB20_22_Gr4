@@ -8,13 +8,12 @@ height: 100px;
 align-items: center;
 padding: 15px 5%;
 position: relative;
-width: 100%;
-top: 0px;
-bottom:0px;
-left:0px;
-right:0px;
-background-color:#afb8a9;
 
+top: 0px;
+background-color:#afb8a9;
+margin-top: -20px;
+margin-left: -10px;
+margin-right: -10px;
 }
 #panel {
   padding: 50px;

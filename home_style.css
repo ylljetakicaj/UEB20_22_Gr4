@@ -14,7 +14,7 @@
 }
 
 
-
+/* header */
 
 .hdr{
   background-color: #f8f9fa;
@@ -66,6 +66,91 @@ header {
     justify-content: center;
   }
 
+  
+ .search{
+  height: 40px;
+  width: 400px;
+  padding: 0 10px;
+  color: black;
+  font-weight:500;
+  background: white;
+  border: none;
+ 
+ }
+
+ .fa-search{
+  height: 40px;
+  width:40px;
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 5px;
+ 
+  
+ }
+ 
+ .items{
+  display: inline-flex;
+  padding: 0 300px;
+ 
+ }
+
+ .items a{
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0 12px;
+ }
+
+ .login{
+
+  position: relative;
+  top: 10px;
+  left: 320px; 
+  } 
+
+  
+a:visited{
+  color: black;
+}
+a:hover{
+  color:rgba(255, 0, 0, 0.4)
+}
+
+
+.fa-user{
+  size: 100%;
+ }
+
+
+ /* button blej tani */
+.button1{
+  position:relative;
+  overflow: hidden;
+    top:-130px; 
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #939fb6;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+  
+  }
+  #span_button{
+    background: #009688;
+    height: 80%;
+    width: 70%;
+    border-radius:25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+  transition: 0.5s;
+  }
+
+ /* tabs te rejat-ne zbritje */
 
 
 [data-tab-content] {
@@ -87,7 +172,7 @@ justify-content: center;
 
 .tabs {
   
-    margin: 0 500px;
+    margin: 0 650px;
     font-size: 20px;
     font-weight: 800;
     cursor: pointer;
@@ -114,33 +199,40 @@ justify-content: center;
   align-self: center;
 }
 
-.button1{
-position:relative;
-overflow: hidden;
-  top:-130px; 
-  width:200px;
-  padding:15px 0;
-  text-align: center;
-  margin: 20px 10px;
-  border-radius: 25px;
-  font-weight: bold;
-  border: 2px solid #939fb6;
-  background: transparent;
-  color: black;
+/* tabs - new */
+.button2{
+  font-size:small;
+  position:relative;
+  right:-100px; 
+  top: -250px;
+  content: '';
+  width: 50px;
+   height: 30px;
+   border: none;
+  border-radius: 50%;
+  text-decoration: none;
   cursor: pointer;
+  background: #efebe9;
+  color: #a1887f;
+}
 
-}
-#span_button{
-  background: #009688;
-  height: 80%;
-  width: 70%;
-  border-radius:25px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  z-index: -1;
-transition: 0.5s;
-}
+/* tabs - ne zbritje */
+ .button3{
+  font-size:small;
+  position:relative;
+  right:80px; 
+  top: 80px;
+border: none;
+  content: '';
+  width: 50px;
+   height: 30px;
+  border-radius: 50% ;
+    text-decoration: none;
+    cursor: pointer;
+     background: red;
+    color: white;
+ }
+
 
 /* button:hover #span_button{
   width: 100%;
@@ -172,7 +264,7 @@ h1{
   
 }
 
-
+/* produktet tek tabs */
 #emri-produktit {
   text-align: center;
   margin: 45px;
@@ -242,8 +334,12 @@ table{
     } 
     }
 
+    #cmimi{
+      text-decoration:none;
+     }  
 
 
+/* per keshillat */
 .new2{
   width:100%;
   text-align: left;
@@ -270,6 +366,24 @@ margin:0px;
 } 
 
 
+.buttonK{
+  font-size: large;
+  position:relative;
+  color:#efebe9; 
+  content: '';
+  width: 200px;
+   height: 40px;
+  border: none;
+  text-decoration: none;
+  margin: 4px 8px;
+  margin-left: 210px;
+  bottom: -15px;
+  background-color: rgb(69, 58, 58);
+  cursor: pointer;
+  
+  }
+
+  /* po keto i keni pare */
 .section3{
   width: 80%;
   margin: auto;
@@ -278,6 +392,56 @@ margin:0px;
 }
 
 
+
+/* quote */
+
+.hearts {
+  border: 17px solid pink;
+  border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+}
+/* styling for Pen, unrelated to border-image */
+
+  /* se shpejti */
+.section4 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px; 
+}
+
+  
+.div5{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newdiv-col{
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow:hidden;
+}
+.newdiv-col img{
+  width: 80%; 
+}
+.layer{
+background: transparent;
+height:100%;
+width: 100%;
+position: absolute;
+top: 0;
+left:0;
+transition: 0.5s;
+}
+
+.layer:hover{
+  background: rgba(255, 0, 0, 0.4);
+  ;
+}
 
 
 /* footer section */
@@ -383,101 +547,23 @@ margin:0px;
     cursor: pointer;
   }
   
+
+
+
+  /* datalist emailat */
+  .email1{
   
-  .div5{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
- 
- #cmimi{
-  text-decoration:none;
- }  
+    width: 200px;
+    padding: 8px 13px;
+    margin: 4px 0;
+  }
 
-.button2{
-  font-size:small;
-  position:relative;
-  right:-100px; 
-  top: -250px;
-  content: '';
-  width: 50px;
-   height: 30px;
-   border: none;
-  border-radius: 50%;
-  text-decoration: none;
-  cursor: pointer;
-  background: #efebe9;
-  color: #a1887f;
-}
-
- .button3{
-  font-size:small;
-  position:relative;
-  right:80px; 
-  top: 80px;
-border: none;
-  content: '';
-  width: 50px;
-   height: 30px;
-  border-radius: 50% ;
-    text-decoration: none;
-    cursor: pointer;
-     background: red;
-    color: white;
- }
-
- .search{
-  height: 40px;
-  width: 400px;
-  padding: 0 10px;
-  color: black;
-  font-weight:500;
-  background: white;
-  border: none;
- 
- }
-
- .fa-search{
-  height: 40px;
-  width:40px;
-  display: flex;
-  background: #f2f2f2;
-  border-radius: 5px;
- 
-  
- }
- 
- .items{
-  display: inline-flex;
-  padding: 0 300px;
- 
- }
-
- .items a{
-  text-decoration: none;
-  font-size: 18px;
-  padding: 0 12px;
- }
-
- .login{
-
-  position: relative;
-  top: 10px;
-  left: 320px; 
-
-
-  } 
-
- 
 
 
 
  .button4{
   width:100px;  
   height:100px;
- }
- .fa-user{
-  size: 100%;
  }
 
  .div1{
@@ -504,84 +590,10 @@ box-sizing: border-box; /* po jau ndryshon hapesiren ndermjet */
   text-align: center;
   padding-top: 50px;
 }
-.newdiv-col{
-  flex-basis: 32%;
-  border-radius: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  overflow:hidden;
-}
-.newdiv-col img{
-  width: 80%; 
-}
-.layer{
-background: transparent;
-height:100%;
-width: 100%;
-position: absolute;
-top: 0;
-left:0;
-transition: 0.5s;
-}
-
-.layer:hover{
-  background: rgba(255, 0, 0, 0.4);
-  ;
-}
 
 
 
-.buttonK{
-  font-size: large;
-  position:relative;
-  color:#efebe9; 
-  content: '';
-  width: 200px;
-   height: 40px;
-  border: none;
-  text-decoration: none;
-  margin: 4px 8px;
-  margin-left: 210px;
-  bottom: -15px;
-  background-color: rgb(69, 58, 58);
-  cursor: pointer;
-  
-  }
-  
-  .email1{
-  
-    width: 200px;
-    padding: 8px 13px;
-    margin: 4px 0;
-  }
 
-
-  .hearts {
-    border: 17px solid pink;
-    border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
-    border-image-slice: 20 22;
-    border-image-repeat: round;
-  }
-  /* styling for Pen, unrelated to border-image */
-  
- 
-  
-.section4 {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px; 
-}
-
-a:visited{
-  color: black;
-}
-a:hover{
-  color:rgba(255, 0, 0, 0.4)
-}
-
-
-  
    
 
   
