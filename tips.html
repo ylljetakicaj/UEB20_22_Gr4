@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
    
     <script>
+      // hide dhe show 
         $(document).ready(function(){
           $("#hide1").click(function(){
             $(".p1").hide(1000);
@@ -25,22 +26,26 @@
             $(".p3").show(1000);
           });
         });
+        //fade
         $(document).ready(function(){
          $("#fade").click(function(){
           $(".1").fadeToggle("slow");
           $(".2").fadeToggle("slow");
   });
 });
+//slide
 $(document).ready(function(){
   $("#logo").click(function(){
     $("#panel").slideToggle("slow");
   });
 });
+//animate
 $(document).ready(function(){
   $(".fsheh1").click(function(){
     $(".card").animate({height:'toggle'});
   });
 });
+//html get
 $(document).ready(function(){
   $("#hide1").click(function(){
     alert("Text: " + $(".p1").text());
@@ -49,17 +54,20 @@ $(document).ready(function(){
     alert("HTML: " + $(".p1").html());
   });
 });
+//set
 $(document).ready(function(){
   $("#btn1").click(function(){
     $(".1").text("The best thing you can do for your skin, is to not smoke <3");
   });
 });
+//add
 $(document).ready(function(){
     $("#show3").click(function(){
         $("ol.ol3").append("<li>Strong soaps and detergents can strip oil from your skin.</li>");
         $("ol.ol3").append("<li>Choose mild cleansers.</li>");
     })
 });
+//remove
 $(document).ready(function(){
   $(".fsheh2").click(function(){
     $("h3").remove(".title");
