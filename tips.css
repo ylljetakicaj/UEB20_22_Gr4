@@ -62,12 +62,20 @@ header {
   #panel1{
     height:150px;
   } 
+  html{
+    background-image: url(fotot/skin2.png), url(fotot/bg.jpg);
+    background-position: bottom right, top left;
+   background-repeat: no-repeat, repeat;
+   padding: 20px;
+     width: 1px, 50px;
+  }
 *{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
-
+    /* background-image: url(personal-care-products-icon.png), url(bg.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat; */
 }
 body{
     display: flex;
@@ -80,6 +88,8 @@ body{
   text-decoration:double;
 }
 .container{
+    min-height: 5px;
+    max-height: 10px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -87,6 +97,9 @@ body{
     width: 1200px;
     flex-wrap: wrap;
     top: 30px;
+    /* background-image: url(personal-care-products-icon.png), url(bg.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat; */
 }
 .container .card{
     position: relative;
@@ -103,12 +116,30 @@ button{
 #fsheh1{
   width:120px;
   height:100px;
+  background-image: radial-gradient(rgb(150, 139, 195), rgb(187, 118, 228), rgb(225, 143, 188));
+  align-items: center;
+  margin:10px;
+  align-items: center;
+  font-size: 10px;
 }
-#fsheh2{
+ #fsheh2{
   width:120px;
   height:100px;
   margin: 10px;
+  background-image: radial-gradient(rgb(150, 139, 195), rgb(187, 118, 228), rgb(225, 143, 188));
+} 
+table{
+  border-spacing: 5px;
+  padding:5px;
+  margin-left: 0px;  
+margin-right: auto; 
+text-align: center;
+align-items: center;
+float: right;
+word-wrap: break-word;
+background-color: #f7f7f9;
 }
+
 .container .card::before{
     content: '';
     position: absolute;
@@ -161,6 +192,16 @@ button{
     font-weight: 300;
     color: #ccc;
  }
+ #div1 {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+  margin-left: auto;
+  border: 2px solid #aaaaaa;
+}
+#drag{
+  margin-left: auto;
+}
 
  
  
