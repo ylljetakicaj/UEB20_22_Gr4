@@ -3,7 +3,7 @@
 Krijimi i një ueb sajti në kuadër të projektit (HTML5, CSS, CSS3, Bootstrap,JavaScript dhe JQuery)
 
 ## Tema
-Krijimi i një website për barnatore.
+Skin Care Website.
 ##  Authors
 
 - [Rinesa Zuzaku](https://github.com/RinesaZuzaku)
