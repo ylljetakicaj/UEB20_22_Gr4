@@ -1,6 +1,5 @@
-
 .all{
-  background-color:aliceblue;
+  background-color: aliceblue;
   
 }
 .all1{
@@ -15,31 +14,32 @@
 
 
 /* header */
+header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 0%;
+  width: 100%;
+  background-color:#afb8a9;
+  color:black;
+  z-index: 1;
+}
 
-.hdr{
+  .hdr{
   background-color: #f8f9fa;
   color:black;
 }
-header {
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 0%;
-    width: auto;
-    background-color:#afb8a9;
-    color:black;
-   
-    z-index: 1;
-}
 
-.logo {
+
+  .logo {
     padding: 0;
 }
-#logoja {
+   #logoja {
     margin: auto;
     width: auto;
     height: 45px;
   }
+
   .nav_linqet {
     
     list-style: none;
@@ -47,7 +47,7 @@ header {
     margin:auto;
     margin-left: 400px;
 }
-.nav_linqet a {
+  .nav_linqet a {
  
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -55,11 +55,11 @@ header {
     text-decoration: none;
     justify-content: center;
   }
-.nav_linqet li {
+  .nav_linqet li {
     padding: 15px 20px;
     justify-content: center;
   }
-.nav_linqet li a:hover {
+  .nav_linqet li a:hover {
     color: #100020;
     animation: bottomboder 0.5s;
     animation-play-state: running;
@@ -67,7 +67,7 @@ header {
   }
 
   
- .search{
+  .search{
   height: 40px;
   width: 400px;
   padding: 0 10px;
@@ -78,7 +78,7 @@ header {
  
  }
 
- .fa-search{
+  .fa-search{
   height: 40px;
   width:40px;
   display: flex;
@@ -88,41 +88,40 @@ header {
   
  }
  
- .items{
+  .items{
   display: inline-flex;
   padding: 0 300px;
  
  }
 
- .items a{
+  .items a{
   text-decoration: none;
   font-size: 18px;
   padding: 0 12px;
  }
 
- .login{
-
+  .login{
   position: relative;
   top: 10px;
   left: 320px; 
   } 
 
   
-a:visited{
+  a:visited{
   color: black;
 }
-a:hover{
+  a:hover{
   color:rgba(255, 0, 0, 0.4)
 }
 
 
-.fa-user{
+  .fa-user{
   size: 100%;
  }
 
 
  /* button blej tani */
-.button1{
+  .button1{
   position:relative;
   overflow: hidden;
     top:-130px; 
@@ -138,52 +137,39 @@ a:hover{
     cursor: pointer;
   
   }
-  #span_button{
-    background: #009688;
-    height: 80%;
-    width: 70%;
-    border-radius:25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-  transition: 0.5s;
-  }
+
 
  /* tabs te rejat-ne zbritje */
-
-
 [data-tab-content] {
  
   display: none;
 justify-content: center;}
   
-.active[data-tab-content] {
+  .active[data-tab-content] {
   display: block;
   
 }
   
 
-.tab-content {
+  .tab-content {
   font-size: 15px;
 text-align:center;
 justify-content: center;
 } 
 
-.tabs {
-  
-    margin: 0 650px;
-    font-size: 20px;
-    font-weight: 800;
-    cursor: pointer;
-    justify-content: center;
-    
- 
-}
+  .tabs {
+    display: table;
+      margin: 0 auto;
+      font-size: 20px;
+      font-weight: 800;
+      cursor: pointer;
+      justify-content: center;
+    }
 
 
 
-.tabs span {
+
+  .tabs span {
 
   padding: 10px;
   align-items: center;
@@ -192,7 +178,7 @@ justify-content: center;
 }
   
 
-.tabs span:hover {
+  .tabs span:hover {
   align-items: center;
   cursor: pointer;
   color: palevioletred;
@@ -200,7 +186,7 @@ justify-content: center;
 }
 
 /* tabs - new */
-.button2{
+  .button2{
   font-size:small;
   position:relative;
   right:-100px; 
@@ -217,7 +203,7 @@ justify-content: center;
 }
 
 /* tabs - ne zbritje */
- .button3{
+  .button3{
   font-size:small;
   position:relative;
   right:80px; 
@@ -233,32 +219,7 @@ border: none;
     color: white;
  }
 
-
-/* button:hover #span_button{
-  width: 100%;
-} */
-
-/* button:hover{
-  border: none;
-} */
-/* font-size: large;
-position:relative;
-
-color:whitesmoke; 
-content: '';
-width: 150px;
- height: 40px;
-border: none;
-padding: 8px 11px;
-
-  text-decoration: none;
-  margin: 4px 50px;
-  cursor: pointer;
-background-color: #ccad7f;
-}
-
-*/
-h1{
+  h1{
   font-size: 36px;
   font-weight: 600;
   
@@ -271,14 +232,14 @@ h1{
   font-family: "Georgia";
   margin-bottom:  45px;
 }
-.tabela{
+  .tabela{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   width: fit-content;
   height:fit-content;
   }
-table{
+  table{
   border-spacing: 1.5px;
   }
 
@@ -297,7 +258,7 @@ table{
   }
 
   
-#pershkrimi-produktit{
+  #pershkrimi-produktit{
   text-align: center;
   margin: 45px;
   font-family: "Georgia";
@@ -312,14 +273,14 @@ table{
     margin-bottom:  45px;
     }
 
-    .pfoto:hover{
+  .pfoto:hover{
       outline: .2rem solid #222;
       outline-offset: 0;
       transform:scale(0.95);
       transform: rotate();
     }
 
-    .pfoto {
+  .pfoto {
       margin: 55px 55px 55px 55px;
       width: auto;
       height: 200px;
@@ -344,29 +305,23 @@ table{
   width:100%;
   text-align: left;
 }
-  
 
-  
-.div_keshillat{
+  .div_keshillat{
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
     margin-right: 130px;
     margin-left:150px;
 }
-.keshillat2{
+  .keshillat2{
   
   background: #ffe7fa;
-margin:0px;
- 
+  margin:0px;
   padding: 10px 10px;
-  
   box-sizing: border-box;
   word-spacing:3px; 
 } 
-
-
-.buttonK{
+  .buttonK{
   font-size: large;
   position:relative;
   color:#efebe9; 
@@ -392,32 +347,27 @@ margin:0px;
 }
 
 
-
 /* quote */
-
 .hearts {
   border: 17px solid pink;
   border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/hearts-border-image.png);
   border-image-slice: 20 22;
   border-image-repeat: round;
 }
-/* styling for Pen, unrelated to border-image */
 
-  /* se shpejti */
+
+/* se shpejti */
 .section4 {
   width: 70%;
   margin: auto;
   text-align: center;
   padding-top: 50px; 
 }
-
-  
 .div5{
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
-
 .newdiv-col{
   flex-basis: 32%;
   border-radius: 10px;
@@ -437,9 +387,8 @@ top: 0;
 left:0;
 transition: 0.5s;
 }
-
 .layer:hover{
-  background: rgba(255, 0, 0, 0.4);
+  background: rgba(211, 112, 160, 0.4);
   ;
 }
 
@@ -547,11 +496,8 @@ transition: 0.5s;
     cursor: pointer;
   }
   
-
-
-
   /* datalist emailat */
-  .email1{
+.email1{
   
     width: 200px;
     padding: 8px 13px;
@@ -561,35 +507,8 @@ transition: 0.5s;
 
 
 
- .button4{
-  width:100px;  
-  height:100px;
- }
 
- .div1{
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-}
 
-/* new column */
-
-.new-col{
-flex-basis: 31%;
-background: #ffe7fa;
-border-radius:10px;
-margin-bottom:5%;
-padding: 20px 12px;
-box-sizing: border-box; /* po jau ndryshon hapesiren ndermjet */
-}
-
-/* pa qeta h1 del pa hapsire */
-.newpr{
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  padding-top: 50px;
-}
 
 
 
