@@ -45,8 +45,10 @@
           </header>
           
         <script>
+          //match
           const alert1 = 'Im feeling lucky too.'
           console.log('match() method: ' + alert1.match('lucky'));
+
           function greeting(name) {
               if(name=='yes'){
                 alert('Im feeling lucky too.');
@@ -85,7 +87,7 @@
           let pic = $(".slideshow");
           let i = 0;
           setInterval(function() {
-              i = (i + 1) % slideshow_array.length //kthen 0,1,2
+              i = (i + 1) % slideshow_array.length 
           $(document).ready(function(){
               pic.fadeOut(1000, () => {
                   pic.attr('src', slideshow_array[i]);
