@@ -208,15 +208,15 @@ justify-content: center;
   position:relative;
   right:80px; 
   top: 80px;
-border: none;
+  border: none;
   content: '';
   width: 50px;
-   height: 30px;
+  height: 30px;
   border-radius: 50% ;
-    text-decoration: none;
-    cursor: pointer;
-     background: red;
-    color: white;
+  text-decoration: none;
+  cursor: pointer;
+  background: red;
+  color: white;
  }
 
   h1{
@@ -274,27 +274,25 @@ border: none;
     }
 
   .pfoto:hover{
-      outline: .2rem solid #222;
-      outline-offset: 0;
-      transform:scale(0.95);
-      transform: rotate();
+    outline: .2rem solid #222;
+    outline-offset: 0;
+    transform:scale(0.95);
+    transform: rotate();
     }
 
   .pfoto {
-      margin: 55px 55px 55px 55px;
-      width: auto;
-      height: 200px;
-      border-radius: 25px;
-      border: 1px solid white;
-      transition: transform 0.25s
-    
+    margin: 55px 55px 55px 55px;
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+    border: 1px solid white;
+    transition: transform 0.25s
     }  
 @media screen and (max-width: 600px){
   pfoto{
   margin: 40px 40px 40px 40px;
     } 
     }
-
     #cmimi{
       text-decoration:none;
      }  
@@ -314,7 +312,6 @@ border: none;
     margin-left:150px;
 }
   .keshillat2{
-  
   background: #ffe7fa;
   margin:0px;
   padding: 10px 10px;
@@ -335,7 +332,6 @@ border: none;
   bottom: -15px;
   background-color: rgb(69, 58, 58);
   cursor: pointer;
-  
   }
 
   /* po keto i keni pare */
