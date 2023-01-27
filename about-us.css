@@ -109,18 +109,7 @@ header {
 	margin-top: 30px;
 	cursor: pointer;
 }
-/*.content-section .content .read-more-btn a{
-	background-color: #3d3d3d;
-	padding:12px 40px;
-	text-decoration: none;
-	color:#fff;
-	font-size: 15px;
-	letter-spacing: 1.5px;
-} 
-.content-section .content .read-more-btn a:hover{
-	background-color: #a52a2a;
-	color:#fff;
-} */
+
 
 .read-more-btn{
 	background-color: #230000;
