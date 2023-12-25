@@ -2,7 +2,7 @@
 ## Projekti nga lenda Programimi ne UEB 1
 Krijimi i një ueb sajti në kuadër të projektit (HTML5, CSS, CSS3, Bootstrap,JavaScript dhe JQuery)
 
-[![Netlify link](https://6589918ae78d19ebdfc17e03--lustrous-starburst-6ca011.netlify.app/skincaretips)
+[Netlify link](https://6589918ae78d19ebdfc17e03--lustrous-starburst-6ca011.netlify.app/skincaretips)
 
 ## Tema
 Skin Care Website.
